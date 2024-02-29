@@ -1,0 +1,6 @@
+<launch>
+    <node name="pointcloud_publisher_node" pkg="reto_m6" type="reto_filter_pub.py" output="screen"/>
+    <node name="pointcloud_filter" pkg="reto_m6" type="reto_filter.py" output="screen"/>
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find reto_m6)/config/pointcloud.rviz"/>
+</launch>

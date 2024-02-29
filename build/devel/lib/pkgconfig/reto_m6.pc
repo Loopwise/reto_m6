@@ -1,0 +1,8 @@
+prefix=/home/loopwise/multipacha_ws/src/reto_m6/build/devel
+
+Name: reto_m6
+Description: Description of reto_m6
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

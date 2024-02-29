@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Lanzar el nodo publisher -->
+    <node name="reto_pub" pkg="reto_m6" type="reto_topic_pub.py" output="screen"/>
+
+    <!-- Lanzar el nodo subscriber -->
+    <node name="reto_sub" pkg="reto_m6" type="reto_topic_sub.py" output="screen"/>
+</launch>
